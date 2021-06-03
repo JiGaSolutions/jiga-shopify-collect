@@ -29,15 +29,10 @@ $content = $this->el($element['content_element'], [
         'el-content uk-panel price-color',
     ],
     'style' => [
-        // Set the min-height if it has a value
-        //'min-height: {min_height}px',
     ],
-    //'itemprop'  => 'price',
 
-    //'id' => 'JiGa-shopify',
-    //'shopifyId' => $props['content'],
 ]);
-// Test
+
  
 
 $image = $this->el('image', [
